@@ -1,0 +1,175 @@
+body{
+	background-image:url(../image/back.jpg);
+	background-size:cover;
+}
+.contanier{
+	background-color:#FFF;
+	opacity:0.9;
+	margin:auto;
+	width:80%;
+	height:1000px;
+	margin-top:30px;
+	box-shadow: 10px 10px 10px #E6CAFF;
+}
+.contanier2{
+	background-color:#FFF;
+	opacity:0.9;
+	margin:auto;
+	width:70%;
+	height:1000px;
+	margin-top:30px;
+	box-shadow: 10px 10px 10px #E6CAFF;
+}
+.contanier3{
+	background-color:#FFF;
+	opacity:0.9;
+	margin:auto;
+	width:70%;
+	height:1900px;
+	margin-top:30px;
+	box-shadow: 10px 10px 10px #E6CAFF;
+}
+.contanier4{
+	background-color:#FFF;
+	opacity:0.9;
+	margin:auto;
+	width:70%;
+	margin-top:30px;
+	box-shadow: 10px 10px 10px #E6CAFF;
+}
+
+
+.f{
+			background-color: #FF8F59;
+			width: 100%;
+			margin: auto;
+			height: 40px;
+			color: azure;
+			font-weight: bolder;
+		}
+		.s{
+			list-style: none;
+			width: 16%;
+			height:30px;
+			text-align: center;
+			padding-top:10px;
+			float: left;
+		}
+		.s:hover{
+			background-color:#F30;
+			
+		}
+		#t{
+			text-decoration: none;
+			color: aliceblue;
+			
+		}
+		#t:hover{
+			color:#3C3;
+		}
+		#k{
+			text-decoration:none;
+			color:#FFF;
+			
+		}
+		#k:hover{
+			background-color:#C00;
+			color:#CCC;			
+		}
+		.second{
+			background-color:#F63;
+			width:210px;
+			color:#FFF;
+			position:absolute;
+			left:16%;
+			z-index:10;
+			display:none;
+		}
+		.y{
+			text-align:center;
+			padding:10px;
+			list-style:none;
+		}
+	   * {
+		margin: 0;
+		padding: 0;
+	}
+	#list {
+		list-style: none;
+		animation: move 15s linear infinite;
+		animation-delay: 2s;/*延迟2s在进行滚动*/
+		width: 200%;
+		overflow: hidden;
+	}
+	#list img{
+		float: left;
+	}
+	ul {
+		width: 100%;
+		height: 200px;
+		margin:  auto;
+		background: #FFAD86;
+		overflow: hidden;
+	}
+	#list:hover{
+		animation-play-state: paused;/*鼠标悬浮，动画停止*/
+	}
+	/* 添加动画 */
+	@keyframes move{
+		from {
+			transform: translate(0);
+		}
+		to {
+			transform: translate(-900px);
+		}
+	}
+	h3{
+		text-align: center;
+		color: red;
+		font-size: 22px;
+	}
+	.left{
+		float: left;
+		padding-left: 30px;
+		width: 48%;
+		height: 1000px;
+	}
+	.right{
+		float: left;
+		padding-left:40px;
+		width: 48%;
+		height: 1000px;
+		
+
+	}
+	.meal{
+		list-style: none;
+		padding-top: 20px;
+		background-color: #BDEDFF;
+		border: 1px dashed #F79A69;
+		
+	}
+	#yuan{
+		border-radius: 50%;
+	}
+	#yuan2{
+		width:130px;
+		height:130px;
+		border-radius:50%;
+	}
+	#kuang:hover{
+		border:2px dashed #00FFFF;
+		background-color:#6F9;
+		
+	}
+	.fen{
+		border:1px solid #999;
+		
+	}
+	.fen:hover{
+		background-color:#CCC;
+		border:1px solid #F33;
+		
+	}
+
+	
